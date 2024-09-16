@@ -30,12 +30,17 @@ public class AddressBook {
         BuddyInfo buddy1 = new BuddyInfo("Homer", 25);
         BuddyInfo buddy2 = new BuddyInfo("Mike", 21);
         BuddyInfo buddy3 = new BuddyInfo("John", 20);
+        BuddyInfo buddy4 = new BuddyInfo("Brian", 23);
+        BuddyInfo buddy5 = new BuddyInfo("Thomas", 26);
 
         addressBook.addBuddy(buddy1);
         addressBook.addBuddy(buddy2);
         addressBook.addBuddy(buddy3);
+        addressBook.addBuddy(buddy4);
+        addressBook.addBuddy(buddy5);
 
         addressBook.removeBuddy(buddy1);
+        addressBook.removeBuddy(buddy2);
 
         addressBook.printBuddies();
 
