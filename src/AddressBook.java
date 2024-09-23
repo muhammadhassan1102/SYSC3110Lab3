@@ -33,6 +33,7 @@ public class AddressBook {
         BuddyInfo buddy4 = new BuddyInfo("Brian", 23);
         BuddyInfo buddy5 = new BuddyInfo("Thomas", 26);
 
+
         addressBook.addBuddy(buddy1);
         addressBook.addBuddy(buddy2);
         addressBook.addBuddy(buddy3);
@@ -41,6 +42,7 @@ public class AddressBook {
 
         addressBook.removeBuddy(buddy1);
         addressBook.removeBuddy(buddy2);
+        addressBook.removeBuddy(buddy3);
 
         addressBook.printBuddies();
 
