@@ -43,6 +43,7 @@ public class AddressBook {
         addressBook.removeBuddy(buddy1);
         addressBook.removeBuddy(buddy2);
         addressBook.removeBuddy(buddy3);
+        addressBook.removeBuddy(buddy4);
 
         addressBook.printBuddies();
 
